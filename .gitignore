@@ -1,0 +1,23 @@
+# Presentation materials — not part of the code demo
+presentation.md
+*.pptx
+*.pdf
+talk/
+demo_recordings/
+
+# Downloaded models (fetched by setup.sh, too large for git)
+models/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Local test output
+/tmp/
+*.wav
+DEMO_TRANSCRIPTION.md

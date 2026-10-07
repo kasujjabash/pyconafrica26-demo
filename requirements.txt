@@ -1,0 +1,22 @@
+# Core audio I/O
+sounddevice>=0.4.6
+pyaudio>=0.2.13
+
+# Speech recognition
+SpeechRecognition>=3.10.0
+openai-whisper>=20231117
+vosk>=0.3.42
+
+# Audio processing & visualization
+numpy>=1.24.0
+scipy>=1.11.0
+matplotlib>=3.7.0
+
+# Terminal UI
+rich>=13.0.0
+
+# Text-to-speech (voice assistant responses)
+pyttsx3>=2.90
+
+# Utilities
+requests>=2.31.0
