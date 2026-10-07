@@ -309,3 +309,22 @@ Make sure `requirements.txt` pins a version that's actually published (check ava
 
 - Make sure you actually ran `source .venv/bin/activate` (or `.venv\Scripts\activate` on Windows) in the *same* terminal session you're running commands in — the `(.venv)` prefix should show in your prompt
 - If the venv was created, then the project folder was later renamed or moved, the venv's internal paths go stale. Recreate it: `rm -rf .venv && python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt`
+
+---
+
+## Learn More — Package Docs
+
+| Package | What it's for here | Docs |
+| --- | --- | --- |
+| `sounddevice` | Mic/speaker I/O | https://python-sounddevice.readthedocs.io/ |
+| `numpy` | Audio as arrays, FFT, math | https://numpy.org/doc/ |
+| `scipy` | Signal processing (resample, filters) | https://docs.scipy.org/doc/scipy/ |
+| `rich` | Terminal UI (panels, tables, live meters) | https://rich.readthedocs.io/ |
+| `matplotlib` | Real-time waveform/spectrum visualization | https://matplotlib.org/stable/ |
+| `SpeechRecognition` | Speech-to-text wrapper (Google engine) | https://pypi.org/project/SpeechRecognition/ |
+| `openai-whisper` | Offline speech-to-text | https://github.com/openai/whisper |
+| `vosk` | Offline streaming speech-to-text | https://alphacephei.com/vosk/ |
+| `pyttsx3` | Text-to-speech | https://pyttsx3.readthedocs.io/ |
+| `pyaudio` | Low-level PortAudio bindings | https://pypi.org/project/PyAudio/ |
+
+
